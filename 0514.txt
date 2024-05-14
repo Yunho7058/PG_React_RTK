@@ -1,0 +1,26 @@
+0514 앱만들기
+
+npm(저장소에 패키지에 설치, 개발할떄 계속 사용) vs npx(가져오는건 똑같음,한번만 사용?)
+
+npm init vite
+
+vite 란
+구조 생성(폴더 파일 생성)
+src
+    assets
+    hooks
+    store
+    types
+    components
+    라우트 등등
+
+@reduxjs/toolkit redux clsx @vanilla-extract/css @vanilla-extract/css-utils @vanilla-extract/vite-plugin react-icons uuid react-beautiful-dnd
+
+리덕스 사용하기위한 준비
+상태관리라이브러리
+원래는 state props를 이용하여 상태관리를 해야하지만
+관리가 힘들기때문에 라이브러 사용하여 편하게 관리
+
+
+액션 객체 디스패치 함수 -> 리더스 함수 -> 스토어 상태 변화 
+툴킷은 슬라이스 필요
