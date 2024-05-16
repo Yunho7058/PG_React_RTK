@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { IBoard } from '../../types/indes';
+import { IBoard } from '../../types';
 
 type TBoardsState = {
   modalActive: boolean;
